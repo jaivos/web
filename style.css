@@ -22,6 +22,9 @@ blockquote {
 	border-left: #666 1px solid;
 	padding-left: 10px;
 }
+small {
+	font-size:12px !important;
+}
 input, textarea {
 	font-family: inherit;
 	font-size: inherit;
