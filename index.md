@@ -1,5 +1,5 @@
 Title: 
-Updated: Aug 16 10:38:58 2025
+Updated: $mdate
 
 [Running althttpd on OpenBSD](openbsd-althttpd.html)
 

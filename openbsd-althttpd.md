@@ -1,4 +1,4 @@
 Title: Running althttpd on OpenBSD
-Updated: Aug 16 10:29:57 2025
+Updated: $mdate
 
 hello
