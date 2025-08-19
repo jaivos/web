@@ -8,13 +8,21 @@
 	</head>
 	<body>
 			<p class="roll">
-				<strong><a href="https://jaivo.pages.dev">jaivo.com ~:</a></strong>
+				<strong><a href="https://jaivo.pages.dev">jaivo ~:</a></strong>
 			</p>
 			<hr>
 			<h1> Running althttpd on OpenBSD</h1>
 <p><span class="tag"> OpenBSD</span></p>
 <h2 id="downloading-and-compiling-althttpd">Downloading and compiling althttpd</h2>
-<p>..</p>
+<p>Download and extract sources from latest check-in:
+<a href="https://sqlite.org/althttpd/info/tip">https:&#47;&#47;sqlite.org&#47;althttpd&#47;info&#47;tip</a></p>
+<p>Edit Makefile because there is -ldl in linking rule which is not
+avaliable on OpenBSD and run:</p>
+<pre><code>$ make althttpsd
+</code></pre>
+<p>althttpsd is the binary with TLS support.  Copy binary into target
+folder, I also rename it to althttpd for convenience.
+..</p>
 <h2 id="setting-up-acme-client">Setting up acme-client</h2>
 <p>..</p>
 <h2 id="running-standalone">Running standalone</h2>
@@ -24,7 +32,7 @@
 <h2 id="running-with-relayd">Running with relayd</h2>
 	<hr>
 	<a href="openbsd-althttpd.md">Text version</a> -
-	Last: Mon 2025-08-18 23:44:22 -
+	Last: Tue 2025-08-19 14:57:48 -
 	<small>jaivo (at) proton   
 	</body>
 </html>
